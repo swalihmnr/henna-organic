@@ -1,0 +1,168 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: "Bodoni Moda", serif;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #ffd700;
+    }
+
+    header {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .container {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      min-height: 400px;
+    }
+
+    .container::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url(https://www.fashioncronical.com/wp-content/uploads/2024/11/Best-bridal-mehndi-designs-cover-1-1.webp);
+      background-size: cover;
+      background-position: center;
+      filter: blur(6px);
+      opacity: 0.6;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-blend-mode: darken;
+      z-index: 0;
+    }
+
+    .left-container, .right-container {
+      position: relative;
+      z-index: 1;
+      width: 48%;
+      padding: 20px;
+    }
+
+    .left-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .left-container h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .left-container p {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .right-container {
+      height: 350px;
+      border-radius: 14px;
+      background-image: url(https://www.fashioncronical.com/wp-content/uploads/2024/11/Best-bridal-mehndi-designs-cover-1-1.webp);
+      background-position: center;
+      background-size: cover;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    main {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .main-container {
+      padding: 20px;
+    }
+
+    .media-icon {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .media-icon a {
+      font-size: 40px;
+      padding: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .media-icon a:hover {
+      transform: scale(1.2);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .cta-btn {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #ffd700;
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta-btn:hover {
+      background-color: #e0c200;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .left-container,
+      .right-container {
+        width: 100%;
+        padding: 20px 10px;
+      }
+
+      .left-container h1 {
+        font-size: 36px;
+      }
+
+      .left-container p {
+        font-size: 16px;
+      }
+
+      .media-icon a {
+        font-size: 30px;
+      }
+    }
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
