@@ -189,6 +189,13 @@
       .media-icon a {
         font-size: 30px;
       }
+       main .content-boxes{
+        display: flex;
+        overflow: scroll;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
     }
     .footer-content{
         display: flex;
