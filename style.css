@@ -193,10 +193,12 @@
         font-size: 30px;
       }
        main .content-boxes{
-        display: flex;
+      display: flex;
         overflow: scroll;
         overflow-y: hidden;
-        overflow-x: hidden;
+        overflow-x: auto;
+        scrollbar-width: none;
+        margin-top: 15px;
     }
 
     }
